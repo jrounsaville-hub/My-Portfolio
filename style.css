@@ -24,9 +24,7 @@ body:before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -1;
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
+
 }
 
 a:hover {
@@ -290,11 +288,7 @@ a:hover {
     background-image: url('imgs/maybe.2.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-    
+    background-repeat: no-repeat;    
   }
 }
 
