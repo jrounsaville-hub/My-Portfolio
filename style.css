@@ -295,10 +295,9 @@ a:hover {
 
 
 @media screen and (max-width:1024px) {
-  .head-txt {
-    text-align: right;
-    margin-top: 10vh;
-    font-size: 2rem;
+  .head-txt{
+    text-align: center;
+    font-size: 2.3rem;
   }
 }
 
@@ -311,26 +310,12 @@ a:hover {
 }
 
 @media screen and (max-width:480px) {
-  .fullhead {
-    font-size: 3.5rem;
-    margin-left: 50%;
+  .role{
+    margin-bottom: 10%;
+    font-size: 2rem;
   }
 }
 
-
-@media screen and (max-width:480px) {
-  .softhead {
-    font-size: 3.5rem;
-    margin-left: 42%;
-  }
-}
-
-@media screen and (max-width:480px) {
-  .engnhead {
-    font-size: 3.5rem;
-    margin-left: 20%;
-  }
-}
 
 @media screen and (max-width:480px) {
   .header-line {
