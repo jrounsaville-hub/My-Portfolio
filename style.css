@@ -1,0 +1,463 @@
+/*#########################################################
+                      index
+###########################################################*/
+
+
+
+body {
+  font-family: 'Marcellus', serif;
+  color: #fffdfd;
+  text-shadow: 2px 0 8px rgb(57, 57, 57), 0 0 2px rgb(0, 0, 0);
+  margin: 0;
+  
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('imgs/maybe.2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+a:hover {
+  color: rgba(83, 83, 234, 0.744)
+}
+
+
+
+.head-txt {
+  transform: translateY(-36px);
+  text-align: center;
+  max-width: 650px;
+  line-height: 60px;
+  font-size: 3rem;
+  float: right;
+}
+
+
+.myname {
+  display: flex;
+  list-style-type: none;
+  width: 60%;
+  font-size: 90px;
+  text-align: left;
+}
+
+
+
+.role {
+  transform: translateY(-25px);
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  float: left;
+}
+
+.role h1 {
+  margin-bottom: -40px;
+  text-align: left;
+}
+
+.header-line {
+  width: 100%;
+  border-bottom: 9px solid hsl(0, 0%, 0%);
+  margin-top: -70px;
+}
+
+
+
+
+
+
+
+.contactbut {
+  padding-left: 20px;
+  color: white;
+  margin-top: 30px;
+  font-size: 2.5rem;
+  float: right;
+  cursor: pointer;
+}
+
+.projectbut {
+  padding-left: 20px;
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+.aboutbut {
+  padding-left: 20px;
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+.rebut {
+  padding-left: 20px;
+  font-size: 2.5rem;
+  color: white;
+  margin-top: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+
+/*#############################################################
+                         CONTACT 
+#############################################################*/
+
+
+.contact-body {
+  text-align: center;
+}
+
+.backbut {
+  border: 1px solid white;
+  border-radius: 8px;
+  float: left;
+  font-size: 34px;
+  background-color: transparent;
+  color: white;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.emailinfo {
+  clear: both;
+  color: white;
+  font-size: 2rem;
+
+}
+
+
+
+.linkedinbut {
+  font-size: 2rem;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-body h1 {
+  font-size: 3.5rem;
+}
+
+.githubbut {
+  font-size: 2rem;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+
+}
+
+
+/*###############################################################
+                      ABOUTME
+##############################################################*/
+
+.aboutme {
+  text-align: center;
+  font-size: 45px;
+}
+
+
+
+
+/*####################################################
+                  PROJECTS
+######################################################*/
+
+
+.myvid {
+  transform: translate(19vw);
+  width: 50vw;
+  height: 60vh;
+}
+
+.backbutresume {
+  background-attachment: unset;
+
+}
+
+.notris-info {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  max-width: 90%;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/*####################################################
+                     RESUME
+######################################################*/
+
+
+.content {
+  text-align: left;
+  color: white;
+}
+
+.content p {
+  margin-top: 25px;
+  max-width: 50%;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.summary p:not(.content) {
+  text-align: center;
+  margin-top: 25px;
+  max-width: 50%;
+  transform: translate(48%, 0%);
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.summary:not(.content) {
+  text-align: center;
+}
+
+.edu {
+  transform: translateY(-100);
+}
+
+.backbutresume {
+  align-items: start;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-size: 34px;
+  background-color: transparent;
+  color: white;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#########################################################
+                      index
+###########################################################*/
+
+
+@media screen and (max-width:480px) {
+  body {
+    background-image: url('imgs/maybe.2.jpg');
+    position: fixed;
+    z-index: 2;
+  }
+
+  body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    background-image: url('imgs/maybe.2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    
+  }
+}
+
+
+@media screen and (max-width:1024px) {
+  .head-txt {
+    text-align: right;
+    margin-top: 10vh;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .myname {
+    font-size: 3rem;
+    margin: 0;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .fullhead {
+    font-size: 3.5rem;
+    margin-left: 50%;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .softhead {
+    font-size: 3.5rem;
+    margin-left: 42%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .engnhead {
+    font-size: 3.5rem;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .header-line {
+    margin-top: 20px;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .contactbut {
+    color: white;
+    font-size: 2rem;
+    float: right;
+    cursor: pointer;
+    text-align: unset;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .projectbut {
+    font-size: 2rem;
+    color: white;
+    float: right;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .aboutbut {
+    font-size: 2rem;
+    color: white;
+    float: right;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .rebut {
+    font-size: 2rem;
+    color: white;
+    float: right;
+    cursor: pointer;
+  }
+}
+
+/*#############################################################
+                         CONTACT 
+#############################################################*/
+@media screen and (max-width:480px) {
+  .emailinfoo {
+    clear: both;
+    color: white;
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .backbut {
+    border: 1px solid white;
+    border-radius: 8px;
+    float: left;
+    font-size: 34px;
+    background-color: transparent;
+    color: white;
+    padding: 8px 10px;
+    margin-top: 6vh;
+    cursor: pointer;
+  }
+}
+
+/*###############################################################
+                      ABOUTME
+##############################################################*/
+
+/*####################################################
+                     RESUME
+######################################################*/
+
+
+
+
+@media screen and (max-width:480px) {
+  .summary p {
+    all: unset;
+  }
+}
+
+
+/*####################################################
+                  PROJECTS
+######################################################*/
+
+
+@media screen and (max-width:480px) {
+  .myvid {
+    transform: translateX(3vw);
+    padding-top: 25px;
+    width: 100vw;
+    height: 80vw;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .notris-info {
+    color: white;
+    text-align: unset;
+    font-size: 2rem;
+    margin: unset;
+    transform: translateX(15vw);
+    max-width: 80%;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .backbut {
+    align-items: start;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 34px;
+    background-color: transparent;
+    color: white;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+}
