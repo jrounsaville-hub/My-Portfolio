@@ -377,7 +377,7 @@ nav {
 @media screen and (max-width:480px) {
   nav {
     flex-direction: row;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     gap: 5%;
   }
 }
@@ -395,9 +395,27 @@ nav {
     transform: translate(700%);
   }
 }
+
+@media screen and (max-width:480px) {
+  .contactbut{
+  display: hidden;    
+  }
+}
+
+@media screen and (max-width:480px) {
+  .contactmo{
+    color: white;
+  }
+}
 /*###############################################################
                       ABOUTME
 ##############################################################*/
+@media screen and (max-width:480px) {
+  .aboutbody{
+    overflow: unset;
+    overflow-x: hidden ;
+  }
+}
 
 /*####################################################
                      RESUME
