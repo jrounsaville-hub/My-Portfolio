@@ -377,9 +377,7 @@ nav {
 @media screen and (max-width:480px) {
   nav {
     flex-direction: row;
-    font-size: 1.5rem;
-    justify-content: space-around;
-    transform: translate(-20%, 0%);
+    font-size: 1.3rem;
     gap: 5%;
   }
 }
