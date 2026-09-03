@@ -356,35 +356,37 @@ nav {
 @media screen and (max-width:480px) {
   .myname {
     font-size: 2.5rem;
-    transform: translate(140%, 60%);
+    transform: translate(140%, 40%);
   }
 }
 
 @media screen and (max-width:480px) {
   .role{
     font-size: 1rem;
-    transform: translate(14%, -50%);
+    transform: translate(14%, -80%);
   }
 }
 
 @media screen and (max-width:480px) {
   .header-line{
     width: 90%;
-    transform: translate(6%,600%);
+    transform: translate(6%,250%);
   }
 }
 
 @media screen and (max-width:480px) {
   nav {
     flex-direction: row;
+    justify-content: unset;
     font-size: 1.4rem;
+    margin-right: -5%;
     gap: 5%;
   }
 }
 
 @media screen and (max-width:480px) {
   .head-txt{
-    transform: translate(18%, -20%);
+    transform: translate(18%, -34%);
     text-align: unset;
     max-width: 80%;
   }
@@ -398,13 +400,14 @@ nav {
 
 @media screen and (max-width:480px) {
   .contactbut{
-  display: hidden;    
+    display: none;    
   }
 }
 
 @media screen and (max-width:480px) {
   .contactmo{
     color: white;
+    cursor: pointer;
   }
 }
 /*###############################################################
