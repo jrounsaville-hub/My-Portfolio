@@ -242,7 +242,7 @@ nav {
     background-image: url('imgs/maybe_dark_overlay_left_v5.png');
     background-color: black;
     background-repeat: no-repeat;
-    overflow-y: hidden;
+    overflow-y: clip;
 
 
   }
