@@ -274,12 +274,10 @@ nav {
 }
 
 @media screen and (max-width:480px) {
-  .myinfo {
+  .emailinfo {
     position: absolute;
-    bottom: 7rem;
-    left: 4rem;
-    max-width: 1rem;
-    gap: 1rem;
+    top: 35rem;
+    left: 4.5rem;
   }
 }
 
