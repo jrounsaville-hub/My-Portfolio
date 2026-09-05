@@ -278,6 +278,8 @@ nav {
     position: absolute;
     bottom: 7rem;
     left: 4rem;
+    max-width: 1rem;
+    gap: 1rem;
   }
 }
 
