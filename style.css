@@ -100,6 +100,16 @@ body:before {
   top: 3%;
 }
 
+@media screen and (max-width:480px) {
+  .emailinfo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35rem;
+    left: 4.5rem;
+  }
+}
 
 
 .contactbutmain {
@@ -107,7 +117,7 @@ body:before {
 }
 
 .mainnav {
-  position: absolute;
+  position: relative;
   gap: 10rem;
   right: -2rem;
 
@@ -276,13 +286,6 @@ nav {
   }
 }
 
-@media screen and (max-width:480px) {
-  .emailinfo {
-    position: absolute;
-    top: 35rem;
-    left: 4.5rem;
-  }
-}
 
 @media screen and (max-width:480px) {
   nav {
