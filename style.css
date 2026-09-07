@@ -5,7 +5,7 @@
 
 
 body {
-  position: relative;
+  position: absolute;
   min-height: 100vh;
   color: rgb(255, 255, 254);
   text-shadow: 2px 0 8px rgb(12, 12, 12), 0 0 2px rgb(0, 0, 0);
@@ -242,13 +242,13 @@ nav {
 
 @media screen and (max-width:480px) {
   body {
-    position: relative;
+    position: absolute;
     background-image: url('imgs/maybe_dark_overlay_left_v5.png');
     background-color: black;
     background-repeat: no-repeat;
     overflow-y: clip;
-
-
+    max-width: 100vw;
+    max-height: 100vh;
   }
 }
 
