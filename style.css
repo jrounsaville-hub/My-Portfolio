@@ -5,7 +5,7 @@
 
 
 body {
-  position: absolute;
+  position: relative;
   min-height: 100vh;
   color: rgb(255, 255, 254);
   text-shadow: 2px 0 8px rgb(12, 12, 12), 0 0 2px rgb(0, 0, 0);
@@ -98,18 +98,9 @@ body:before {
   font-size: 2.5rem;
   left: 2vw;
   top: 3%;
+  color: none;
 }
 
-@media screen and (max-width:480px) {
-  .emailinfo {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 35rem;
-    left: 4.5rem;
-  }
-}
 
 
 .contactbutmain {
@@ -117,7 +108,7 @@ body:before {
 }
 
 .mainnav {
-  position: relative;
+  position: absolute;
   gap: 10rem;
   right: -2rem;
 
@@ -251,7 +242,7 @@ nav {
 
 @media screen and (max-width:480px) {
   body {
-    position: absolute;
+    position: relative;
     background-image: url('imgs/maybe_dark_overlay_left_v5.png');
     background-color: black;
     background-repeat: no-repeat;
@@ -286,6 +277,13 @@ nav {
   }
 }
 
+@media screen and (max-width:480px) {
+  .emailinfo {
+    position: absolute;
+    top: 35rem;
+    left: 4.5rem;
+  }
+}
 
 @media screen and (max-width:480px) {
   nav {
