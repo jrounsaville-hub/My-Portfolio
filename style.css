@@ -94,10 +94,10 @@ body:before {
   position: absolute;
   text-decoration: none;
   display: flex;
-  gap: 50%;
+  gap: 4rem;
   font-size: 2.5rem;
-  left: 2vw;
-  top: 3%;
+  left: 2rem;
+  top: 2rem;
   color: none;
 }
 
@@ -280,7 +280,9 @@ nav {
 @media screen and (max-width:480px) {
   .emailinfo {
     top: 35rem;
-    left: 4.5rem;
+    left: 0;
+    right: 0;
+    justify-content: center;
   }
 }
 
