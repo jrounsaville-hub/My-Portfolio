@@ -269,20 +269,25 @@ nav {
 }
 
 @media screen and (max-width:480px) {
-  .mainnav {
-    top: 0;
-    gap: 1.5rem;
+  .mainnav{
+    top: -3rem;
     font-size: 2rem;
-    margin-top: -1rem;
+    gap: 1rem;
+    right: -0.5rem;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .pronav{
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width:480px) {
   .emailinfo {
-    top: 35rem;
-    left: 0;
-    right: 0;
-    justify-content: center;
+    position: absolute;
+    top: 80%;
+    left: 2rem;
   }
 }
 
